@@ -4,8 +4,8 @@ ANE-RefreshGallery-Android
 ANE to Refresh The Gallery on Android right after saving a file. Making sure it is available to the user right away
 
 
-Useage:
-
+Usage:
+<pre>
 try{
 	var fs:FileStream = new FileStream();
 	fs.open(file, FileMode.WRITE);
@@ -17,3 +17,4 @@ catch (error:Error)
 {
 	trace("Failed:", error.message);
 }
+</pre>
